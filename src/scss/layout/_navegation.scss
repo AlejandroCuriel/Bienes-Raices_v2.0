@@ -20,6 +20,10 @@
     font-size: 2.2rem;
     text-align: center;
     text-decoration: none;
+    
+    &:hover {
+      color: $green;
+    }
 
     @include tablet {
       font-size: 1.8rem;

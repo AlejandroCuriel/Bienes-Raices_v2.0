@@ -1,0 +1,18 @@
+@include tablet {
+  .us-icons {
+    @include grid(3, 2rem)
+  }
+}
+
+.icon {
+  text-align: center;
+
+  img {
+    height: 10rem;
+    margin: 0 auto;
+  }
+
+  h3 {
+    text-transform: uppercase;
+  }
+}

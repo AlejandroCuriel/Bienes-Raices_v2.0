@@ -18,6 +18,21 @@
 }
 @mixin grid($columns, $spacing ) {
     display: grid;
-    gap: $spacing;
+    column-gap: $spacing;
     grid-template-columns: repeat($columns, 1fr);
+}
+
+@mixin button($bgColor, $display) {
+    background-color: $bgColor;
+    color: $white;
+    font-weight: $bold;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: $separation / 3;
+    display: $display;
+
+    &:hover {
+        background-color: darken($bgColor, 5);
+    }
 }

@@ -1,7 +1,19 @@
+.container {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
 .section {
   margin-top: $separation / 2;
   margin-bottom: $separation / 2;
 }
+
 .content-centric {
     max-width: 800px;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
 }

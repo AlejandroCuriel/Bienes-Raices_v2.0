@@ -14,11 +14,7 @@ p {
     color: $black;
     font-size: 2rem;
 }
-.container {
-    width: 95%;
-    max-width: 120rem;
-    margin: 0 auto;
-}
+
 
 a {
     text-decoration: none;
@@ -27,7 +23,7 @@ a {
 img,
 picture {
     max-width: 100%;
-    width: 35rem;
+    // width: 35rem;
     height: auto;
     display: block;
 }

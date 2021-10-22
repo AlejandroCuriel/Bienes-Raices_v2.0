@@ -1,0 +1,12 @@
+.content-aboutUs {
+  @include tablet {
+    @include grid(2, 2rem)
+  }
+}
+
+.aboutUs-text blockquote{
+  font-weight: $bolder;
+  font-size: 2.2rem;
+  margin: 0;
+  padding-left: 1rem 0 3rem 0;
+}

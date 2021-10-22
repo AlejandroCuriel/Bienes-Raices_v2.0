@@ -7,6 +7,7 @@
 .ad {
   background-color: lighten($gray, 5);
   border: 1px solid darken($gray, 10);
+  border-radius: 5px;
 
   .container-ad {
     padding: 2rem;
@@ -16,11 +17,13 @@
     margin: 0;
   }
 
-  .price {
-    color: $green;
-    font-weight: $bold;
-    font-size: 2.4rem;
-  }
+
+}
+
+.price {
+  color: $green;
+  font-weight: $bold;
+  font-size: 2.4rem;
 }
 
 .characteristic-icons {
@@ -28,11 +31,16 @@
     list-style: none;
     padding: 0;
     justify-content: space-evenly;
+    max-width: 45rem;
+    margin: 0 auto;
 
     li {
       flex: 1; //toman todo el espacio disponible cada contenido para que midan lo mismo
       display: flex;
       justify-content: center;
+      margin-right: 2rem;
+      align-items: center;
+
       img {
         // flex: 0 0 5rem;
         margin-right: 1rem;

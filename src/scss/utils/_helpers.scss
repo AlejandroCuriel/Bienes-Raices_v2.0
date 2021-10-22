@@ -9,11 +9,15 @@
   margin-bottom: $separation / 2;
 }
 
-.content-centric {
-    max-width: 800px;
+.centric-content {
+    max-width: 80rem;
 }
 
 .align-right {
   display: flex;
   justify-content: flex-end;
+}
+
+.border-radius {
+  border-radius: 1rem;
 }
